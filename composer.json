@@ -1,14 +1,14 @@
 {
-    "name": "lucasthobias/wc-brazil-checkout-essentials",
+    "name": "lucascampos-dev/wc-brazil-checkout-essentials",
     "description": "WooCommerce plugin: CPF/CNPJ with check-digit validation, Brazilian CEP and phone validation, and minimum order amount per state (UF).",
     "type": "wordpress-plugin",
     "license": "GPL-2.0-or-later",
     "keywords": ["wordpress", "woocommerce", "brazil", "cpf", "cnpj", "cep", "checkout", "hpos"],
-    "homepage": "https://github.com/lucasthobias/wc-brazil-checkout-essentials",
+    "homepage": "https://github.com/lucascampos-dev/wc-brazil-checkout-essentials",
     "authors": [
         {
             "name": "Lucas Campos",
-            "homepage": "https://github.com/lucasthobias",
+            "homepage": "https://github.com/lucascampos-dev",
             "role": "Developer"
         }
     ],

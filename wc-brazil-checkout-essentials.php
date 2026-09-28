@@ -1,14 +1,14 @@
 <?php
 /**
  * Plugin Name:          Brazil Checkout Essentials for WooCommerce
- * Plugin URI:           https://github.com/lucasthobias/wc-brazil-checkout-essentials
+ * Plugin URI:           https://github.com/lucascampos-dev/wc-brazil-checkout-essentials
  * Description:          CPF/CNPJ billing field with check-digit validation, Brazilian CEP and phone validation, and minimum order amounts per state (UF).
  * Version:              1.0.0
  * Requires at least:    6.5
  * Requires PHP:         7.4
  * Requires Plugins:     woocommerce
  * Author:               Lucas Campos
- * Author URI:           https://github.com/lucasthobias
+ * Author URI:           https://github.com/lucascampos-dev
  * License:              GPL-2.0-or-later
  * License URI:          https://www.gnu.org/licenses/gpl-2.0.html
  * Text Domain:          wc-brazil-checkout-essentials

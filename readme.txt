@@ -1,5 +1,5 @@
 === Brazil Checkout Essentials for WooCommerce ===
-Contributors: lucasthobias
+Contributors: lucascampos-dev
 Tags: woocommerce, brazil, cpf, cnpj, checkout
 Requires at least: 6.5
 Tested up to: 6.8
@@ -20,7 +20,7 @@ CPF/CNPJ with check-digit validation, Brazilian CEP and phone validation, and mi
 * HPOS compatible; Cart/Checkout Blocks aware (see the FAQ for limitations).
 * No external API calls: customer data never leaves your store.
 
-Developer documentation, hooks and source code: https://github.com/lucasthobias/wc-brazil-checkout-essentials
+Developer documentation, hooks and source code: https://github.com/lucascampos-dev/wc-brazil-checkout-essentials
 
 == Installation ==
 

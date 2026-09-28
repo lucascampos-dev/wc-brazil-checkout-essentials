@@ -3,7 +3,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Brazil Checkout Essentials for WooCommerce 1.0.0\n"
-"Report-Msgid-Bugs-To: https://github.com/lucasthobias/wc-brazil-checkout-essentials/issues\n"
+"Report-Msgid-Bugs-To: https://github.com/lucascampos-dev/wc-brazil-checkout-essentials/issues\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
@@ -20,7 +20,7 @@ msgstr ""
 
 #. Plugin URI of the plugin
 #: wc-brazil-checkout-essentials.php
-msgid "https://github.com/lucasthobias/wc-brazil-checkout-essentials"
+msgid "https://github.com/lucascampos-dev/wc-brazil-checkout-essentials"
 msgstr ""
 
 #. Description of the plugin
@@ -35,7 +35,7 @@ msgstr ""
 
 #. Author URI of the plugin
 #: wc-brazil-checkout-essentials.php
-msgid "https://github.com/lucasthobias"
+msgid "https://github.com/lucascampos-dev"
 msgstr ""
 
 #: src/Admin/SettingsTab.php:64

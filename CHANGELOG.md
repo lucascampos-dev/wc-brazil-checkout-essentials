@@ -24,5 +24,5 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Translation template (`languages/wc-brazil-checkout-essentials.pot`).
 - PHPUnit suite (no WordPress required), WPCS + PHPCompatibility ruleset and GitHub Actions CI on PHP 7.4, 8.1 and 8.3.
 
-[Unreleased]: https://github.com/lucasthobias/wc-brazil-checkout-essentials/compare/v1.0.0...HEAD
-[1.0.0]: https://github.com/lucasthobias/wc-brazil-checkout-essentials/releases/tag/v1.0.0
+[Unreleased]: https://github.com/lucascampos-dev/wc-brazil-checkout-essentials/compare/v1.0.0...HEAD
+[1.0.0]: https://github.com/lucascampos-dev/wc-brazil-checkout-essentials/releases/tag/v1.0.0

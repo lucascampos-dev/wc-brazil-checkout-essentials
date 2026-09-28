@@ -1,6 +1,6 @@
 # Brazil Checkout Essentials for WooCommerce
 
-[![CI](https://github.com/lucasthobias/wc-brazil-checkout-essentials/actions/workflows/ci.yml/badge.svg)](https://github.com/lucasthobias/wc-brazil-checkout-essentials/actions/workflows/ci.yml)
+[![CI](https://github.com/lucascampos-dev/wc-brazil-checkout-essentials/actions/workflows/ci.yml/badge.svg)](https://github.com/lucascampos-dev/wc-brazil-checkout-essentials/actions/workflows/ci.yml)
 [![PHP](https://img.shields.io/badge/PHP-7.4%20%E2%80%93%208.3-777BB4?logo=php&logoColor=white)](composer.json)
 [![WooCommerce](https://img.shields.io/badge/WooCommerce-8.9%2B-96588A?logo=woocommerce&logoColor=white)](wc-brazil-checkout-essentials.php)
 [![License: GPL v2+](https://img.shields.io/badge/License-GPL--2.0--or--later-blue.svg)](LICENSE)
@@ -88,13 +88,13 @@ Selling in Brazil means asking for a **CPF or CNPJ**, dealing with **CEP** and *
 ## Installation
 
 **From a release ZIP**
-1. Download the latest release from the [Releases](https://github.com/lucasthobias/wc-brazil-checkout-essentials/releases) page.
+1. Download the latest release from the [Releases](https://github.com/lucascampos-dev/wc-brazil-checkout-essentials/releases) page.
 2. In WordPress, go to **Plugins → Add New → Upload Plugin**, upload the ZIP and activate it.
 
 **From source**
 ```bash
 cd wp-content/plugins
-git clone https://github.com/lucasthobias/wc-brazil-checkout-essentials.git
+git clone https://github.com/lucascampos-dev/wc-brazil-checkout-essentials.git
 ```
 Then activate the plugin. You don't need `composer install` to run it: the plugin falls back to its own PSR-4 autoloader when `vendor/` is absent. Composer is only needed for development tools.
 
