@@ -1,0 +1,197 @@
+# Copyright (C) 2026 Lucas Campos
+# This file is distributed under the GPL-2.0-or-later.
+msgid ""
+msgstr ""
+"Project-Id-Version: Brazil Checkout Essentials for WooCommerce 1.0.0\n"
+"Report-Msgid-Bugs-To: https://github.com/lucasthobias/wc-brazil-checkout-essentials/issues\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2026-09-28T00:00:00+00:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Domain: wc-brazil-checkout-essentials\n"
+
+#. Plugin Name of the plugin
+#: wc-brazil-checkout-essentials.php
+msgid "Brazil Checkout Essentials for WooCommerce"
+msgstr ""
+
+#. Plugin URI of the plugin
+#: wc-brazil-checkout-essentials.php
+msgid "https://github.com/lucasthobias/wc-brazil-checkout-essentials"
+msgstr ""
+
+#. Description of the plugin
+#: wc-brazil-checkout-essentials.php
+msgid "CPF/CNPJ billing field with check-digit validation, Brazilian CEP and phone validation, and minimum order amounts per state (UF)."
+msgstr ""
+
+#. Author of the plugin
+#: wc-brazil-checkout-essentials.php
+msgid "Lucas Campos"
+msgstr ""
+
+#. Author URI of the plugin
+#: wc-brazil-checkout-essentials.php
+msgid "https://github.com/lucasthobias"
+msgstr ""
+
+#: src/Admin/SettingsTab.php:64
+msgid "Brazil Checkout"
+msgstr ""
+
+#: src/Admin/SettingsTab.php:118
+msgid "Settings"
+msgstr ""
+
+#: src/Admin/SettingsTab.php:136
+msgid "Checkout fields"
+msgstr ""
+
+#: src/Admin/SettingsTab.php:137
+msgid "Brazilian taxpayer ID, postcode and phone handling for the checkout."
+msgstr ""
+
+#: src/Admin/SettingsTab.php:142
+msgid "CPF / CNPJ"
+msgstr ""
+
+#: src/Admin/SettingsTab.php:143
+msgid "Add a person type selector and CPF / CNPJ fields with check-digit validation."
+msgstr ""
+
+#: src/Admin/SettingsTab.php:149
+msgid "CEP and phone"
+msgstr ""
+
+#: src/Admin/SettingsTab.php:150
+msgid "Validate and format Brazilian postcodes (CEP) and phone numbers."
+msgstr ""
+
+#: src/Admin/SettingsTab.php:156
+msgid "CEP matches state"
+msgstr ""
+
+#: src/Admin/SettingsTab.php:157
+msgid "Reject orders whose CEP does not belong to the selected state."
+msgstr ""
+
+#: src/Admin/SettingsTab.php:158
+msgid "Uses the national CEP ranges per state. Requires \"CEP and phone\" to be enabled."
+msgstr ""
+
+#: src/Admin/SettingsTab.php:168
+msgid "Minimum order amount per state"
+msgstr ""
+
+#: src/Admin/SettingsTab.php:169
+msgid "Leave a state empty (or 0) for no minimum. The amount is compared with the cart subtotal after discounts, excluding shipping."
+msgstr ""
+
+#: src/Admin/SettingsTab.php:174
+msgid "Enable"
+msgstr ""
+
+#: src/Admin/SettingsTab.php:175
+msgid "Block checkout when the order is below the minimum for the destination state."
+msgstr ""
+
+#: src/Admin/SettingsTab.php:181
+msgid "State taken from"
+msgstr ""
+
+#: src/Admin/SettingsTab.php:184
+msgid "Shipping address (falls back to billing)"
+msgstr ""
+
+#: src/Admin/SettingsTab.php:185
+msgid "Billing address"
+msgstr ""
+
+#: src/Blocks/DocumentField.php:85
+msgid "CPF or CNPJ"
+msgstr ""
+
+#: src/Blocks/DocumentField.php:135
+msgid "Please enter a valid CPF (11 digits) or CNPJ (14 characters)."
+msgstr ""
+
+#. translators: %s: CEP as typed by the customer.
+#: src/Checkout/AddressValidation.php:149
+#, php-format
+msgid "The CEP %s does not exist. Please check your postcode."
+msgstr ""
+
+#. translators: 1: CEP, 2: state name selected, 3: state the CEP belongs to.
+#: src/Checkout/AddressValidation.php:166
+#, php-format
+msgid "The CEP %1$s belongs to %3$s, but the selected state is %2$s."
+msgstr ""
+
+#. translators: %s: field label wrapped in <strong>.
+#: src/Checkout/AddressValidation.php:195
+#, php-format
+msgid "%s must be a Brazilian number with area code, e.g. (11) 91234-5678."
+msgstr ""
+
+#: src/Checkout/AddressValidation.php:196
+msgid "Phone"
+msgstr ""
+
+#: src/Checkout/DocumentFields.php:89
+msgid "Individual (Pessoa Física)"
+msgstr ""
+
+#: src/Checkout/DocumentFields.php:90
+msgid "Company (Pessoa Jurídica)"
+msgstr ""
+
+#: src/Checkout/DocumentFields.php:104
+msgid "required"
+msgstr ""
+
+#: src/Checkout/DocumentFields.php:109 src/Checkout/DocumentFields.php:264
+msgid "Person type"
+msgstr ""
+
+#: src/Checkout/DocumentFields.php:118 src/Checkout/DocumentFields.php:219 src/Checkout/DocumentFields.php:270 src/Checkout/DocumentFields.php:301
+msgid "CPF"
+msgstr ""
+
+#: src/Checkout/DocumentFields.php:132 src/Checkout/DocumentFields.php:192 src/Checkout/DocumentFields.php:274 src/Checkout/DocumentFields.php:308
+msgid "CNPJ"
+msgstr ""
+
+#. translators: %s: field label wrapped in <strong>.
+#: src/Checkout/DocumentFields.php:209
+#, php-format
+msgid "%s is required for companies."
+msgstr ""
+
+#: src/Checkout/DocumentFields.php:210
+msgid "Company name"
+msgstr ""
+
+#. translators: %s: field label wrapped in <strong>.
+#: src/Checkout/DocumentFields.php:345
+#, php-format
+msgid "%s is a required field."
+msgstr ""
+
+#. translators: %s: field label wrapped in <strong>.
+#: src/Checkout/DocumentFields.php:374
+#, php-format
+msgid "%s is not valid. Please check the number and try again."
+msgstr ""
+
+#. translators: 1: state name, 2: minimum amount, 3: amount missing.
+#: src/Checkout/StateMinimumEnforcer.php:259
+#, php-format
+msgid "The minimum order amount for delivery to %1$s is %2$s. Add %3$s more to your cart to continue."
+msgstr ""
+
+#: wc-brazil-checkout-essentials.php:80
+msgid "Brazil Checkout Essentials for WooCommerce requires WooCommerce to be installed and active."
+msgstr ""

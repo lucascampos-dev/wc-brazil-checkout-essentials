@@ -1,0 +1,25 @@
+/**
+ * Brazil Checkout Essentials — classic checkout styles.
+ *
+ * @package BrazilCheckoutEssentials
+ */
+
+/* CPF/CNPJ are conditionally required: hide core's "(optional)" suffix. */
+.woocommerce-checkout .wcbce-conditional .optional {
+	display: none;
+}
+
+/* Rows toggled by the person type selector. */
+.woocommerce-checkout .form-row[hidden] {
+	display: none !important;
+}
+
+.woocommerce-checkout .wcbce-conditional input,
+.woocommerce-checkout #billing_postcode,
+.woocommerce-checkout #shipping_postcode {
+	font-variant-numeric: tabular-nums;
+}
+
+.woocommerce-checkout .wcbce-minimum-notice {
+	margin-bottom: 1em;
+}
